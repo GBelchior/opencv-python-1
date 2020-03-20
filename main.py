@@ -47,7 +47,6 @@ def fadeIn(img1, img2):
     cv2.imshow('Img', img2)
 
 def main():
-
     curIdx = -1
     lastKeyPressed = -1
 
@@ -67,6 +66,5 @@ def main():
 
         fadeIn(img1, img2)
         lastKeyPressed = cv2.waitKeyEx(5000)
-        
 
 main()
